@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman (serif), sans-serif;
+    font-size:12px;
+    color:whitesmoke;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ul-menu-links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.menu-links-container{
+    display:flex;
+}
+.menu-link{
+    padding-left: 25px;
+    list-style: none;
+}
+.container-social-links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ul-social-links{
+    display: flex;
+}
+.list-social-links{
+    padding-left:10px;
+    list-style: none;
+}
+.bi-linkedin, .bi-facebook, .bi-twitter{
+    font-size:20px;
+}
+i:hover{
+    color:blue;
+}
+a, i{
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+}
+a:hover{
+    color:blue;
+}
+body{
+   background-image: url(images/notebook-natural-laptop-macbook.jpg); 
+   background-size: cover ;
+}
+.first-block-info{
+    margin: 80px 0;
+    text-align: center;
+}
+.first-block-info-h1{
+    font-size: 35px;
+}
+.first-block-info-p1{
+    font-size: 17px;
+    margin: 30px 30%;
+}
