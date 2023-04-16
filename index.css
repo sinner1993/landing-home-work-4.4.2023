@@ -1,16 +1,18 @@
 @import url("components/header/header.css");
-@import url("components/under__nav/under_nav.css");
+@import url("components/under__nav/under__nav.css");
 @import url("components/block__wraps/block__wrap__header.css");
 @import url("components/features/features.css");
 @import url("components/mac__block/mac__block.css");
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     font-family: Graphik, sans-serif;
     --white: #FFFFFF;
-    --button_1 : #2091F9;
-    --main_font : #252B42;
-    }
+    --button_1: #2091F9;
+    --main_font: #252B42;
+}

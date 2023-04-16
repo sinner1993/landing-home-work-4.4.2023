@@ -1,38 +1,46 @@
-.features__container{
+.features__container {
     display: flex;
     flex-direction: column;
     margin: 60px;
 }
-.features__container__h1, .features__container__p1{
+
+.features__container__h1,
+.features__container__p1 {
     text-align: center;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
     letter-spacing: 0.2px;
 }
-.features__block{
+
+.features__block {
     margin: 65px 0;
 }
-.features__container__p__wrap{
+
+.features__container__p__wrap {
     display: flex;
     flex-direction: column;
 }
-.features__container__p{
+
+.features__container__p {
     text-align: center;
 }
-.features__row{
+
+.features__row {
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin: auto 16%;
 }
-.features__columns__wrap{
+
+.features__columns__wrap {
     display: flex;
     width: 100%;
-    padding: 0 80px!important;
+    padding: 0 80px !important;
     margin: 2rem auto;
 }
-.feautures__columns__p{
+
+.feautures__columns__p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -40,23 +48,28 @@
     text-align: center;
     letter-spacing: 0.2px;
 }
-.features__img{
+
+.features__img {
     display: flex;
     justify-content: center;
     position: relative;
 }
-.features__undercolumns__img{
+
+.features__undercolumns__img {
     max-width: 100%;
 }
-.features__img__play__icon{
+
+.features__img__play__icon {
     position: absolute;
     top: 38%;
     left: 45%;
 }
-.features__play__background__icon{
+
+.features__play__background__icon {
     position: relative;
 }
-.features__play__icon{
+
+.features__play__icon {
     position: absolute;
     left: 43%;
     top: 35%;
