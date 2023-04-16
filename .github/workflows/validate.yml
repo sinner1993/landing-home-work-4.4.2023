@@ -61,4 +61,5 @@ jobs:
       run: |
         for file in $(find . -maxdepth 1 -iname "*.rendered.html"); do
           htmlproofer $file --disable_external
+          htmlproofer $file --disable_internal
         done
