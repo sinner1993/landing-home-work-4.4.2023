@@ -58,11 +58,12 @@ jobs:
       run: gem install html-proofer
 
     - name: Run HTML Proofer
-      run: |
+      run: 
         for file in $(find . -maxdepth 1 -iname "*.rendered.html"); do
           htmlproofer $file --disable-external
         done
-        - name: Run HTML Proofer
+      
+    - name: Run HTML Proofer
       run: |
         for file in $(find . -maxdepth 1 -iname "*.rendered.html"); do
           htmlproofer $file --disable-internal
